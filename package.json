@@ -1,0 +1,14 @@
+{
+  "name": "tennis-score-helper",
+  "version": "1.0.0",
+  "description": "A simple library for calling tennis score.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Stan Chan",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
