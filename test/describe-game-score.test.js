@@ -10,6 +10,7 @@ describe("describeGameScore", () => {
 
   test("should handle deuce situation", () => {
     expect(describeGameScore(3, 3)).toBe("deuce");
+    expect(describeGameScore(7, 7)).toBe("deuce");
   });
 
   test("should handle advantage situation", () => {
